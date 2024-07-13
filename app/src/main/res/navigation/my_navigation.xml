@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/splashScreen2">
+    <fragment
+        android:id="@+id/splashScreen2"
+        android:name="com.example.brodcasteventapp.screen.SplashScreen"
+        android:label="SplashScreen"
+        tools:layout="@layout/screen_splash"
+        >
+        <action
+            android:id="@+id/action_splashScreen2_to_mainScreen2"
+            app:destination="@id/mainScreen2"
+            app:popUpTo="@id/splashScreen2"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen2"
+        android:name="com.example.brodcasteventapp.screen.MainScreen"
+        android:label="MainScreen"
+        tools:layout="@layout/screen_main"
+        >
+        <action
+            android:id="@+id/action_mainScreen2_to_infoScreen"
+            app:destination="@id/infoScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/infoScreen"
+        android:name="com.example.brodcasteventapp.screen.InfoScreen"
+        android:label="InfoScreen"
+        tools:layout="@layout/screen_info"
+        />
+</navigation>

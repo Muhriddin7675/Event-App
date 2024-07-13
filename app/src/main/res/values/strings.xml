@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Brodcast Event App</string>
+    <string name="event_app">Event App</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="power">Power</string>
+    <string name="wi_fi">Wi-Fi</string>
+    <string name="pilot">Pilot</string>
+    <string name="network">Network</string>
+    <string name="info">1.Battery Charging: Notifies when the devicestarts or stops charging.\n\n2.Screen Status: Informs about the screenturning on or off.\n\n3.Bluetooth Status: Alerts when Bluetooth isturned on/off or connected/disconnected.\n\n4.Wi-Fi Status: Tracks when Wi-Fi isconnected, disconnected, or toggled.\n\n5.Airplane Mode: Indicates when airplanemode is enabled or disabled.\n\n6.Mobile Internet Status: Alerts when mobiledata is turned on or off.\n\n7.Language: You will hear your phones language change.\n\n</string>
+    <string name="screen">Screen</string>
+    <string name="language">Language</string>
+</resources>
